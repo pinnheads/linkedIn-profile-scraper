@@ -9,7 +9,7 @@ class Driver:
         self.driver = webdriver.Chrome
 
     def start_chrome_driver(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome(options=self.options)
         return self.driver
 
     def get_current_url(self):
