@@ -7,6 +7,6 @@
 - [x] Get/Read User input on Job title and Company Name
 - [x] Enter the search string - site:in.linkedin.com/in intitle: Job title and/or Company name
 - [x] Get the results title and profile link recursively
-- [ ] Seprate the code into POM
-- [ ] Handle Captcha during search
-- [ ] Write Data into CSV
+- [x] Seprate the code into POM
+- [x] Handle Captcha during search
+- [x] Write Data into CSV
