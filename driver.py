@@ -6,7 +6,7 @@ class Driver:
         self.options = webdriver.ChromeOptions()
         self.options.add_argument("--start-maximized")
         self.options.add_argument("--lang=en")
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome
 
     def start_chrome_driver(self):
         self.driver = webdriver.Chrome()
